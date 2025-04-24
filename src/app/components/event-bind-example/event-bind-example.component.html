@@ -1,0 +1,16 @@
+<h4>Event Bind Example</h4>
+<div class="d-flex flex-colum gap-2 w-25">
+    <div class="d-flex gap-2 aling-items-center">
+        <button (click)="decrementTimes()" class="btn btn-primary btn-sm flex-grow-5">
+             - 
+
+        </button>
+
+        <span>{{ times }}</span>
+
+        <button (click)="incrementTimes()" class="btn btn-primary btn-sm flex-grow-5">
+            +
+        </button>
+    </div>
+    <button (click)="reset()" class="btn btn-primary btn-sm flex-grow-5">Reset</button>
+</div>
