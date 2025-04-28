@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class EventBindExampleComponent {
   times: number = 0;
   userInput: string = '';
+  // name: string = "Magda"
 
   incrementTimes() {
     // this.times = this.times + 1
@@ -24,5 +25,8 @@ export class EventBindExampleComponent {
     this.times = 0;
   }
 
+  onUserInput(event: Event){
+    this.userInput = (<HTMLInputElement>event.target).value;
+  }
 
 }
