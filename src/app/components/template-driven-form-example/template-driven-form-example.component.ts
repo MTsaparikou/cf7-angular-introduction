@@ -7,8 +7,8 @@ import { EPerson } from 'src/app/shared/interfaces/eperson';
 @Component({
   selector: 'app-tempalte-driven-form-example',
   imports: [EpersonTemplateDrivenFormComponent, PersonTableComponent, SimpleDatatableComponent],
-  templateUrl: './tempalte-driven-form-example.component.html',
-  styleUrl: './tempalte-driven-form-example.component.css'
+  templateUrl: './template-driven-form-example.component.html',
+  styleUrl: './template-driven-form-example.component.css'
 })
 
 export class TemplateDrivenFormExampleComponent {
